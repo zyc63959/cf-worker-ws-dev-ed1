@@ -15,6 +15,3 @@ UUID = "d12aa401-b8ae-4709-b3ed-2248500bd191,9bb11bbb-be88-4732-a136-50c24a5c7d6
 pattern = "new10.test.cforme.cloudns.ch"
 custom_domain = true
 
-[routes]
-pattern = "new9.test.cforme.cloudns.ch"
-custom_domain = true
