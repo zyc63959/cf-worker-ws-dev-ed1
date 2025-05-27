@@ -4,8 +4,17 @@ compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
 
+
 [vars]
 # PROXYIP = "211.230.110.231:50008"
-UUID = "1b6c1745-992e-4aac-8685-266c090e50ea"
+UUID = "d12aa401-b8ae-4709-b3ed-2248500bd191,9bb11bbb-be88-4732-a136-50c24a5c7d6a,cb7081d5-6a12-4ab9-b8ae-6f561a2ee85d,49d0a24e-62dd-40b3-a5a8-93217e173fb0"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
+
+[[routes]]
+pattern = "new10.test.cforme.cloudns.ch"
+custom_domain = true
+
+[routes]
+pattern = "new9.test.cforme.cloudns.ch"
+custom_domain = true
